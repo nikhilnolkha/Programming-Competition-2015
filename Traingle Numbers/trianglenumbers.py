@@ -8,7 +8,7 @@
 # For example, the word value for SKY is 19 + 11 + 25 = 55 = t(10). If the word value is a triangle number then we shall call the word a triangle word.
 # Determine how many words in a file are triangle words
     
-# This function determines if a word is triangle word
+# This function determines the number of triangle words in a file
 def cnt_triangle_word(file_name):
     txt = open(file_name)
     arr_words = txt.read().replace('"','').replace(' ','').split(',')
